@@ -425,7 +425,7 @@ class Chatbot:
     def recommend_movies(self, user_ratings: dict, num_return: int = 3) -> List[str]:
         """
         This function takes user_ratings and returns a list of strings of the 
-        recommended movie titles. This function must have at least 5 ratings to make a recommendation. 
+        recommended movie titles. This function needs at least 5 ratings to make a recommendation. 
 
         Arguments: 
             - user_ratings (dict): 
@@ -521,7 +521,7 @@ class Chatbot:
 
 
 if __name__ == '__main__':
-    print('To run your chatbot in an interactive loop from the command line, '
+    print('To run Auteur in an interactive loop from the command line, '
           'run:')
     print('    python3 repl.py')
 
